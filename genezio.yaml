@@ -1,0 +1,12 @@
+frontend:
+    path: .
+    publish: dist
+    scripts:
+        build:
+            - npm run build
+        deploy:
+            - npm install
+    subdomain: The-Business-of-Song-V7-7
+name: The-Business-of-Song-V7-7
+region: eu-central-1
+yamlVersion: 2
